@@ -1,0 +1,6 @@
+Data Peserta Sanbercode Bootcamp ReactJS
+1. Nama: Bagus Eri Rizqiyan
+2. Email: baguseririzqiyan@gmail.com
+3. Sistem Operasi yang digunakan:windows 10
+4. Akun Gitlab: baguser
+5. Akun Telegram: @bagus_eri
