@@ -6,6 +6,9 @@ body {
 
 .header_menu {
     background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 #id {
@@ -19,17 +22,6 @@ nav {
 nav a {
     float: left;
 }
-
-
-/* .header_menu a {
-    margin: 0px;
-    padding: 20px;
-    font-weight: 700;
-    list-style-type: none;
-    color: blue;
-    text-decoration: none;
-    font-weight: bold;
-} */
 
 ul li {
     display: inline-block;
@@ -46,21 +38,22 @@ ul a {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
-    padding: 5px 20px;
+    padding: 3px 10px;
     border: 1px solid transparent;
+    font-style: arial;
 }
 
 section h1 {
     text-align: center;
     padding-bottom: 40px;
-    margin: 0px;
+    margin: auto;
 }
 
 section {
     text-align: justify;
     width: 65%;
     padding: 25px;
-    margin: 10px auto;
+    margin: 80px auto;
     background: #fff;
     border: 1px solid #dedede;
     -webkit-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
