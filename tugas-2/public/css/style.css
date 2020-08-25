@@ -8,6 +8,18 @@ body {
     background-color: white;
 }
 
+#id {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    float: left;
+}
+
 .header_menu a {
     padding: 15px;
     font-weight: 700;
