@@ -40,11 +40,11 @@ ul a {
     font-weight: bold;
     text-decoration: none;
     padding: 3px 10px;
-    border: 1px solid transparent;
+    border: 1px;
     font-style: arial;
 }
 
-.wrap {
+div {
     width: 50%;
     padding: 20px;
     margin-top: 80px;
@@ -56,10 +56,6 @@ ul a {
     box-shadow: 3px 3px 3px 3px grey;
 }
 
-.wrap h1 {
+div h1 {
     text-align: center;
-}
-
-form .table td {
-    width: 150px;
 }
