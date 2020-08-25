@@ -41,7 +41,6 @@ ul a {
     text-decoration: none;
     padding: 3px 10px;
     border: 1px;
-    font-style: arial;
 }
 
 div {
@@ -53,7 +52,7 @@ div {
     margin-right: auto;
     background: #fff;
     border: 1px solid black;
-    box-shadow: 3px 3px 3px 3px grey;
+    box-shadow: 3px 3px 3px 3px white;
 }
 
 div h1 {
