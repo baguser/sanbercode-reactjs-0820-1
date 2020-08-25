@@ -5,10 +5,52 @@ body {
     font-family: serif;
 }
 
+.header_menu {
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#id {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    float: left;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 10px;
+}
+
+ul a {
+    color: rgb(73, 147, 245);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3px 10px;
+    border: 1px solid transparent;
+    font-style: arial;
+}
+
 .wrap {
     width: 50%;
     padding: 20px;
-    margin: 50px auto;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
     background: #fff;
     border: 1px solid black;
 }
@@ -17,8 +59,6 @@ body {
     text-align: center;
 }
 
-ul li {
-    list-style-type: none;
+form .table td {
+    width: 150px;
 }
-
-form .table {}
