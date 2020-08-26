@@ -69,3 +69,12 @@ else {
 console.log("============================");
 
 //soal 5
+
+var tanggal = 06 ;
+var bulan = 08 ;
+var tahun = 2000 ;
+
+var bulan1 = "Agustus";
+switch(lan = 1){
+  case 1: {console.log(tanggal+" "+bulan1+" "+tahun)}
+}
