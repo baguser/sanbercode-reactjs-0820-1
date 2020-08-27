@@ -58,7 +58,3 @@ console.log(name)
 console.log("==============================")
 
 // soal lima
-
-var Buah = ["2. Apel", "5. Jeruk", "3. Anggur", "4. Semangka", "1. Mangga"];
-for ()
-console.log(Buah );
