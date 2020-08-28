@@ -58,3 +58,14 @@ console.log(name)
 console.log("==============================")
 
 // soal lima
+
+console.log("---SOAL 5----")
+var daftarBuah = ["2. Apel", "5. Jeruk", "3. Anggur", "4. Semangka", "1. Mangga"];
+
+var sortDaftarBuah = daftarBuah.sort()
+
+for(var i = 0; i <= 4; i++) {
+  console.log(sortDaftarBuah[i])
+}
+
+console.log()
