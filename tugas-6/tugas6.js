@@ -1,5 +1,16 @@
 //soal satu
+const luas = (param) => {
+    return param * 2 * 3.14;
 
+
+}
+
+const keliling = (param) => {
+    return param * 2 * 3.14
+}
+
+console.log(luas(10));
+console.log(keliling(10))
 
 
 console.log('===========')
@@ -57,10 +68,8 @@ console.log('===========')
 
 //soal lima
 
-user = (...combined) => {
-    console.log(combined)
-}
 const west = ["Will", "Chris", "Sam", "Holly"]
 const east = ["Gill", "Brian", "Noel", "Maggie"]
+const combined = [...west, ...east]
 
-user(west, east)
+console.log(combined)
