@@ -3,7 +3,7 @@
 
 
 console.log('===========')
-//soal dua
+    //soal dua
 
 let kalimat = 'saya'
 let kalimat1 = 'adalah'
@@ -11,24 +11,15 @@ let kalimat2 = 'seorang'
 let kalimat3 = 'frontend'
 let kalimat4 = 'developer'
 
-let theString1 = `${kalimat}`
-let theString2 = `${kalimat1}`
-let theString3 = `${kalimat2}`
-let theString4 = `${kalimat3}`
-let theString5 = `${kalimat4}`
+let string = `${kalimat} ${kalimat1} ${kalimat2} ${kalimat3} ${kalimat4}`
 
-
-console.log(theString1)
-console.log(theString2)
-console.log(theString3)
-console.log(theString4)
-console.log(theString5)
+console.log(string)
 
 console.log('===========')
 
 //soal tiga
 
-const newFunction = function literal(firstName, lastName) {
+const newFunction = (firstName, lastName) => {
     return {
         fullName: function() {
             console.log(`${firstName}, ${lastName}`)
