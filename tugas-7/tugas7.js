@@ -3,8 +3,8 @@
 console.log("=========== soal 1, relase 0===========")
 
 class Animal {
-    constructor(hewan) {
-        this.hewan = hewan;
+    constructor(name) {
+        this.hewan = name;
     }
 
     get name() {
